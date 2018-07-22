@@ -1,0 +1,67 @@
+hr {
+	border: 1px solid #0288d1;
+}
+/* ======================================
+		1. Navbar menu
+====================================== */
+.navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus, span,.carousel-text span, 
+.about-title h1, .introduce h4, .introduce li b, .facts i, .rex-item h3, .testi-title, 
+.testimonials i, .testimonials p, .post-content .post-title, .card-action a.brand-text,.card-action a.brand-text:hover,.card-action a.brand-text:focus, 
+.card-action a.blog-comment, .card-action a.blog-social, .card-action a.blog-social, .ci-icons, .footer-title span, .footer-social-area .social a, 
+.blog-contan p, .pagination li i, .placeholder, .input-field button i, .side-title li a:hover, .social-contain .social a:hover, .post-class h4, 
+.placeholder, .input-field button i, .side-title li a:hover, .social-contain .social a:hover, .post-class h4, .header-title h1, .contact-inform h2, 
+.popup-box .popup-content h2 {
+	color: #0288d1 !important;
+}
+.navbar-inverse .navbar-toggle .icon-bar, .carousel-caption a, .carousel-caption a:hover,.carousel-caption a:active,.carousel-caption a:focus, 
+.meter .progress-bar, .bg-dark, .time-line:before, .rs-round, .portfolio-category li .current, .owl-theme .owl-controls .owl-page span, 
+a.load, a.load:hover, .ci-icons:hover, .contact-form .submit-btn, .sweet-alert button, .map-buttons .btn-block,.map-buttons .btn-block:focus, 
+.footer-social-area .social a:hover,.footer-social li a:focus, .back-to-top,.back-to-top:focus, .back-to-top:hover, .pagination li.active, .tagcloud a:hover {
+    background-color: #0288d1;
+    color: #fff !important;
+
+}
+@media (min-width: 767px) {
+	/*Dropdown Menu*/
+	.navbar-nav .dropdown-menu {
+		border-top: 3px solid #0288d1;
+	}
+	.navbar-nav .dropdown-menu li > a:hover {
+        color: #0288d1;
+    }	
+}
+/*============================================
+    Portfolio
+=============================================*/
+.portfolio-images .pf-overlay, .mfp-bg {
+    background-color: rgba(2, 136, 209, 0.50);
+}
+/*===============================================
+    contact
+=================================================*/
+/*----------contect-form---------*/
+.contact-form  .input-label.active {
+	color: #0288d1 !important;
+	border-bottom: #0288d1 !important;
+}
+.contact-form .materialize-textarea:focus, .contact-form .input-box:focus {
+    border-bottom: 1px solid #0288d1 !important;
+    box-shadow: 0px 1px 0px #0288d1 !important;
+}
+.search .materialize-textarea:focus, .search .input-box:focus {
+    border-bottom: 1px solid #0288d1 !important;
+    box-shadow: 0px 1px 0px #0288d1 !important;
+}
+blockquote {
+	border-left: 5px solid #0288d1;
+}
+.blockquote-reverse {
+    border-right: 5px solid #0288d1;
+}
+/*==================================
+STYLE SWITHER - Demo purpose only
+==================================*/
+#style-switcher .bottom a.settings {
+    background: none repeat scroll 0 0 #0288d1;
+}
