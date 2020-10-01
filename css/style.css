@@ -493,17 +493,88 @@ span {
 
 /*  8. Time Line Resume
 ----------------------------------------------------------------------------- */
+ul.timeline{
+    margin-left: 10px;
+}
 
+.timeline li{
+    border-left: solid 2px #ececec;
+    list-style: none;
+    padding: 0 0 40px 30px;
+}
+
+.timeline li:before{
+    content: "";
+    border: solid 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    font-size: 8px;
+    margin-left: -35px;
+    font-weight: 400;
+    background: #fff;
+    display: block;
+    position: absolute;
+    margin-top: -1px;
+}
+
+.timeline li .line-title{
+    font-size: 20px;
+    line-height: 6px;
+    
+}
+
+.timeline li:first-child{
+    padding: 0 0 60px 19px;
+}
+
+.timeline li:first-child:before{
+    border: 0;
+    background:none;
+    position: relative;
+    
+    
+}
+
+.timeline li:first-child i{
+    float: left;
+    height: 53px;
+    margin-left: -30px;
+    padding: 25px 16px;
+    border-radius: 50px;
+    margin: -10px -45px;
+    background: #fff;
+    width: 53px;
+    text-align: center;
+}
+
+.timeline li .section-title{
+    padding-left: 20px;
+}
+
+.timeline li span {
+    font-size: 20px;
+    padding: 9px 0;
+    display: block;
+}
+
+.timeline li:last-child{
+    border: 0;
+    margin-left: 2px;
+}
 .experience h2{
     color: #4c5667;
     font-size: 25px;
     text-align: center;
     letter-spacing: 1px;
-    padding-top: 20px;
+    padding-top: 18px;
     padding-bottom: 20px;
 }
 .time-line {
     position: relative;
+    
 }
 .time-line:before {
     content: "";
@@ -514,7 +585,7 @@ span {
     margin: 0 auto;
     height: 80%;
     background: #0288d1;
-    top: 15px;
+    top: 20px;
 }
 .rs-round:hover {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
@@ -523,14 +594,14 @@ span {
     content: "";
     position: absolute;
     text-align: center;
-    height: 120px;
-    line-height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    left: 0px;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    border-radius: 20%;
+    left: 50px;
     margin-left: -60px;
     border: 10px solid #fff;
-    background-color: #0288d1;
+    background-color:10px #0288d1;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .rs-round.second {
@@ -544,8 +615,9 @@ span {
     margin-right: -60px;
 }
 .rs-round i {
-    color: #fff;
-    font-size: 30px;
+
+    color: #000000;
+    font-size: 20px;
 }
 .rex-item h3 {
     font-size: 22px;
